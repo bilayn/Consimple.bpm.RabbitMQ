@@ -1,0 +1,1 @@
+Consimple.bpm.RabbitMQ
