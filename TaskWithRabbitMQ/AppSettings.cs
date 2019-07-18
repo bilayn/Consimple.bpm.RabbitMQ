@@ -1,23 +1,17 @@
 ﻿namespace TaskWithRabbitMQ
 {
-    public class AppSettings
+    public static class AppSettings
     {
-        private static AppSettings _instance;
-        private AppSettings()
-        {
-        }
-        public static AppSettings Instance { get => _instance == null ? _instance = new AppSettings() : _instance; }
+        public static string DataSource { get => "Entity"; }
+        public static string UserName { get => "Supervisor"; }
+        public static string Password { get => "Supervisor"; }
+        public static string ConnectionString { get => "Data Source=WIN-BEAA7MI3J3O\\MSSQLSERVER2016;Initial Catalog=Yuri_study;User ID=Supervisor;Password=Supervisor;"; }
 
-        public string DataSource { get; set; }
-        public string UserName { get; set; }
-        public string Password { get; set; }
-        public string ConnectionString { get; set; }
-
-        public string RabbitName { get; set; }
-        public string RabbitPassword { get; set; }
-        public string RabbitHost { get; set; }
-        public string RabbitExchangeName { get; set; }
-        public string RabbitQueueName { get; set; }
-        public string RabbitRoutingKey { get; set; }
+        public static string RabbitName { get => "guest"; }
+        public static string RabbitPassword { get => "guest"; }
+        public static string RabbitHost { get => "localhost"; }
+        public static string RabbitExchangeName { get => "test"; }
+        public static string RabbitQueueName { get => "test"; }
+        public static string RabbitRoutingKey { get => "test"; }
     }
 }

@@ -13,7 +13,7 @@ namespace TaskWithRabbitMQ
         {
             get
             {
-                switch (AppSettings.Instance.DataSource)
+                switch (AppSettings.DataSource)
                 {
                     default: return new EntityDataSource();
                 }

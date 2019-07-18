@@ -13,6 +13,7 @@ namespace TaskWithRabbitMQ.Framework
         {
             using (DataContext db = new DataContext())
             {
+                var inv = db.InventoryType;
                 return db.InventoryType.Where(it => it.Name.Equals(type)).FirstOrDefault();
             }
         }

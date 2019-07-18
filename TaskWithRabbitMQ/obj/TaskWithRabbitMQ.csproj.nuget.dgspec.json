@@ -1,28 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/Users/bazak.y/Projects/TaskWithRabbitMQ/Consimple.bpm.RabbitMQ/TaskWithRabbitMQ/TaskWithRabbitMQ.csproj": {}
+    "C:\\Users\\user\\Desktop\\Consimple.bpm.RabbitMQ-master\\TaskWithRabbitMQ\\TaskWithRabbitMQ.csproj": {}
   },
   "projects": {
-    "/Users/bazak.y/Projects/TaskWithRabbitMQ/Consimple.bpm.RabbitMQ/TaskWithRabbitMQ/TaskWithRabbitMQ.csproj": {
+    "C:\\Users\\user\\Desktop\\Consimple.bpm.RabbitMQ-master\\TaskWithRabbitMQ\\TaskWithRabbitMQ.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/bazak.y/Projects/TaskWithRabbitMQ/Consimple.bpm.RabbitMQ/TaskWithRabbitMQ/TaskWithRabbitMQ.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\Consimple.bpm.RabbitMQ-master\\TaskWithRabbitMQ\\TaskWithRabbitMQ.csproj",
         "projectName": "TaskWithRabbitMQ",
-        "projectPath": "/Users/bazak.y/Projects/TaskWithRabbitMQ/Consimple.bpm.RabbitMQ/TaskWithRabbitMQ/TaskWithRabbitMQ.csproj",
-        "packagesPath": "/Users/bazak.y/.nuget/packages/",
-        "outputPath": "/Users/bazak.y/Projects/TaskWithRabbitMQ/Consimple.bpm.RabbitMQ/TaskWithRabbitMQ/obj/",
+        "projectPath": "C:\\Users\\user\\Desktop\\Consimple.bpm.RabbitMQ-master\\TaskWithRabbitMQ\\TaskWithRabbitMQ.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\Consimple.bpm.RabbitMQ-master\\TaskWithRabbitMQ\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/bazak.y/.config/NuGet/NuGet.Config"
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
