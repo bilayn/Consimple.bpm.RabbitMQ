@@ -1,5 +1,5 @@
-﻿using System.Collections.Generic;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
 using TaskWithRabbitMQ.Framework;
 using TaskWithRabbitMQ.Model;
 
@@ -42,11 +42,18 @@ namespace TaskWithRabbitMQ.Controllers
         {
         }
 
-        //// POST api/values/CreateNewInventory
+        // POST api/values/CreateNewInventory
         [HttpPost("CreateNewInventory")]
         public string CreateInventory([FromBody] Inventory inventory)
         {
             return new CallRabbitMQ().SendNewInventory(inventory);
+        }
+
+        // POST api/values/CreateNewRecod
+        [HttpPost("CreateNewRecod")]
+        public string CreateNewRecod([FromBody] InventoryMaintenanceHistory imh)
+        {
+            return new CallRabbitMQ().SendNewRecordMaintenanceHistory(imh);
         }
     }
 }

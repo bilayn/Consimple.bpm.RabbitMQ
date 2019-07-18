@@ -1,7 +1,7 @@
-﻿using System;
+﻿using RabbitMQ.Client;
+using System;
 using System.Collections.Generic;
 using System.Text;
-using RabbitMQ.Client;
 using TaskWithRabbitMQ.Model;
 
 namespace TaskWithRabbitMQ.Framework
@@ -46,6 +46,23 @@ namespace TaskWithRabbitMQ.Framework
             try
             {
                 var message = SrvProvider.Instance.Source.CreateNewInventory(newInventory);
+                if (!string.IsNullOrEmpty(message))
+                {
+                    SendMessage(message);
+                }
+                return message;
+            }
+            catch (Exception ex)
+            {
+                return ex.Message;
+            }
+        }
+
+        public string SendNewRecordMaintenanceHistory(InventoryMaintenanceHistory imh)
+        {
+            try
+            {
+                var message = SrvProvider.Instance.Source.AddNewInventoryMaintenanceHistory(imh);
                 if (!string.IsNullOrEmpty(message))
                 {
                     SendMessage(message);

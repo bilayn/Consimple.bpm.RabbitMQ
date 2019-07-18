@@ -1,6 +1,6 @@
-﻿using System.IO;
+﻿using Newtonsoft.Json;
+using System.IO;
 using System.Net;
-using Newtonsoft.Json;
 using TaskWithRabbitMQ.Infrastructure;
 using TaskWithRabbitMQ.Model;
 

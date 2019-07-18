@@ -12251,11 +12251,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\Consimple.bpm.RabbitMQ-master\\TaskWithRabbitMQ\\TaskWithRabbitMQ.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\Consimple.bpm.RabbitMQ-master\\Consimple.bpm.RabbitMQ\\TaskWithRabbitMQ\\TaskWithRabbitMQ.csproj",
       "projectName": "TaskWithRabbitMQ",
-      "projectPath": "C:\\Users\\user\\Desktop\\Consimple.bpm.RabbitMQ-master\\TaskWithRabbitMQ\\TaskWithRabbitMQ.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\Consimple.bpm.RabbitMQ-master\\Consimple.bpm.RabbitMQ\\TaskWithRabbitMQ\\TaskWithRabbitMQ.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\Consimple.bpm.RabbitMQ-master\\TaskWithRabbitMQ\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\Consimple.bpm.RabbitMQ-master\\Consimple.bpm.RabbitMQ\\TaskWithRabbitMQ\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

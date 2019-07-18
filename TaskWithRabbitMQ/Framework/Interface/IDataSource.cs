@@ -1,5 +1,4 @@
 ﻿using TaskWithRabbitMQ.Model;
-using TaskWithRabbitMQ.Model.Dictionary;
 
 namespace TaskWithRabbitMQ.Interface
 {
@@ -8,5 +7,6 @@ namespace TaskWithRabbitMQ.Interface
         Inventory FindInventory(string invNumber);
 
         string CreateNewInventory(Inventory model);
+        string AddNewInventoryMaintenanceHistory(InventoryMaintenanceHistory imh);
     }
 }
